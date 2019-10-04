@@ -73,10 +73,10 @@ int main()
                 {
                     pf = p;
                 }
-                img[i - 1][j - 1] = spherecolor;
+                img[i][j] = spherecolor;
             }
 
-            fprintf(fp, "%d %d %d\n", (u_int8_t)img[i - 1][j - 1].x, (u_int8_t)img[i - 1][j - 1].y, (u_int8_t)img[i - 1][j - 1].z);
+            fprintf(fp, "%d %d %d\n", (u_int8_t)img[i][j].x, (u_int8_t)img[i][j].y, (u_int8_t)img[i][j].z);
         }
     }
 
